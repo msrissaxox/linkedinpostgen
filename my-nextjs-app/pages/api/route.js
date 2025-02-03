@@ -1,11 +1,11 @@
 "use strict";
 import OpenAI from "openai";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
-dotenv.config();
+// dotenv.config();
 //updates
 const openai = new OpenAI({
-  apiKey: process.env.OpenAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 //asynchronous API route handler function
