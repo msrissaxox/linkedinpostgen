@@ -51,7 +51,7 @@ export default function Home() {
             LinkedIn Post Generator
           </h1>
           <input
-            className="bg-amber-50 py-2 px-2 rounded-s outline-2 outline-transparent focus:outline-none items-center w-full"
+            className="bg-amber-50 py-2 px-2 rounded-s outline-2 outline-transparent focus:outline-none items-center w-full  text-black"
             placeholder="Enter post prompt here..."
             value={prompt}
             onChange={(e) => {
