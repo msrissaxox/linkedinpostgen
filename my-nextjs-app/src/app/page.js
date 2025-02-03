@@ -47,7 +47,7 @@ export default function Home() {
     <div className="bg-gradient-to-br from-amber-200 to-amber-50">
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-          <h1 className="w-full font-extralight text-2xl text-center">
+          <h1 className="w-full font-extralight text-2xl text-center text-black">
             LinkedIn Post Generator
           </h1>
           <input
@@ -61,7 +61,7 @@ export default function Home() {
           {loading ? (
             <Loading />
           ) : (
-            <p>{generatedText || "Generated text will appear here"}</p>
+            <p className="text-black">{generatedText || "Generated text will appear here"}</p>
           )}
           <button
             className="bg-amber-500 hover:bg-amber-300 text-black font-bold py-2 px-4 rounded w-full"
