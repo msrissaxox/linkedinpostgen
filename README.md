@@ -44,19 +44,19 @@ npm run dev
 
 ## How It Works
 
-- 1. User Input
+- User Input
 The user enters a prompt in the input field.
 
-- 2. API Request
+- API Request
 The app sends a POST request to /api/route with the user's prompt.
 
-- 3. AI Processing
+- AI Processing
 The API route interacts with OpenAI's GPT-4 model, requesting a LinkedIn post based on the given input.
 
-- 4. Displaying the Generated Post
+- Displaying the Generated Post
 The AI-generated post is displayed in the UI.
 
-- 5. Error Handling
+- Error Handling
 If an error occurs, it is logged, and an appropriate message is shown to the user.
 
 ## 📌 Deployment
