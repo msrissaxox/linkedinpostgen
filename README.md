@@ -1,3 +1,5 @@
+## Live Project
+<a href="https://linkedinpostgen-1.vercel.app/" target="_blank">Cheesy LinkedIn Post Generator</a>
 ## Cheesy LinkedIn Post Generator 
 The LinkedIn Post Generator is a web application that helps users generate highly engaging and emoji-rich LinkedIn posts based on their input. This tool utilizes OpenAI's GPT-4 model to create posts that are intentionally "cheesy" and fun, making them more likely to catch attention on LinkedIn.
 
